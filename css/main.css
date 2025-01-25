@@ -241,7 +241,7 @@ header .header__btn:active {
   display: flex;
   flex-direction: column;
   gap: 32px;
-  animation: box 70s linear infinite;
+  animation: box 40s linear infinite;
 }
 @media (max-width: 600px) {
   .pricing .box {
@@ -259,7 +259,7 @@ header .header__btn:active {
 }
 .pricing .box:nth-child(2) {
   animation: none;
-  animation: box-2 70s linear infinite;
+  animation: box-2 40s linear infinite;
 }
 .pricing .box:nth-child(2) img {
   height: 552px;
@@ -286,7 +286,7 @@ header .header__btn:active {
   display: none;
   flex-direction: column;
   gap: 32px;
-  animation: box 70s linear infinite;
+  animation: box 40s linear infinite;
 }
 .pricing .box:last-child img {
   display: none;
@@ -906,14 +906,14 @@ header .header__btn:active {
     transform: translateY(-500%);
   }
   to {
-    transform: translateY(500%);
+    transform: translateY(0);
   }
 }
 @keyframes box-2 {
   from {
-    transform: translateY(-500%);
+    transform: translateY(0);
   }
   to {
-    transform: translateY(-1500%);
+    transform: translateY(-500%);
   }
 }/*# sourceMappingURL=main.css.map */

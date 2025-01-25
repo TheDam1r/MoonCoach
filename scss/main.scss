@@ -274,7 +274,7 @@ header {
         display: flex;
         flex-direction: column;
         gap: 32px;
-        animation: box 70s linear infinite;
+        animation: box 40s linear infinite;
 
         @include media(600px) {
             display: none;
@@ -295,7 +295,7 @@ header {
 
     .box:nth-child(2) {
         animation: none;
-        animation: box-2 70s linear infinite;
+        animation: box-2 40s linear infinite;
 
 
         img {
@@ -327,7 +327,7 @@ header {
         display: none;
         flex-direction: column;
         gap: 32px;
-        animation: box 70s linear infinite;
+        animation: box 40s linear infinite;
 
         img {
             display: none;
@@ -998,17 +998,17 @@ header {
     }
 
     to {
-        transform: translateY(500%);
+        transform: translateY(0);
     }
 }
 
 @keyframes box-2 {
 
     from {
-        transform: translateY(-500%);
+        transform: translateY(0);
     }
 
     to {
-        transform: translateY(-1500%);
+        transform: translateY(-500%);
     }
 }
